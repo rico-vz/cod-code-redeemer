@@ -1,0 +1,7 @@
+options:
+  min_delay_ms: 750
+  max_delay_ms: 1450
+  redeem_limit_max: 160
+  window_size:
+    width: 1280
+    height: 720
