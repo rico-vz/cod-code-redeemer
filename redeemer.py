@@ -81,6 +81,8 @@ async def main():
                             logger.error(f"Failed to redeem code: {code}")
                             # Move to next code even if failed (never happened before but just in case)
                             success = True
+            
+            logger.success(f"Redeemed {codes_redeemed} codes!")
 
 
 if __name__ == "__main__":
